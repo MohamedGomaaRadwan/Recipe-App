@@ -28,6 +28,7 @@ Follow these steps to set up the project on your local machine:
 1. Clone the repository: `git clone https://github.com/MohamedGomaaRadwan/RecipeApp.git`
 2. Install Flutter: Make sure you have Flutter version 3.10.4 installed on your machine. You can download Flutter from the [Flutter website](https://flutter.dev) or update your Flutter version using `flutter upgrade`.
 3. Install Dependencies: Run `flutter pub get` to install the required dependencies.
+3. build generated files: Run `flutter packages pub run build_runner build --delete-conflicting-outputs`.
 4. Run the App: Use the command `flutter run` to launch the app on your connected device or emulator.
 5. you can use the email `Admin@gmail.com` and the password is `Admin` to login
 
@@ -41,5 +42,3 @@ The Recipe App includes comprehensive unit tests for key features and functional
 - Recipe Bloc: Unit tests for fetching and displaying recipes with different events and states.
 
 To run the unit tests, use the command `flutter test` in the project directory.
-
-

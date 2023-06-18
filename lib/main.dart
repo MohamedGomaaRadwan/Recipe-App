@@ -10,4 +10,3 @@ void main() async {
   await HiveRegister.registerModels();
   runApp(AppMainBlocProvider(child: MyApp()));
 }
-
