@@ -30,7 +30,7 @@ Follow these steps to set up the project on your local machine:
 3. Install Dependencies: Run `flutter pub get` to install the required dependencies.
 3. Build generated files: Run `flutter packages pub run build_runner build --delete-conflicting-outputs`.
 4. Run the App: Use the command `flutter run` to launch the app on your connected device or emulator.
-5. you can use the email `Admin@gmail.com` and the password is `Admin` to login
+5. you can use the email `Admin@gmail.com` and the password is `admin` to login
 
 ## Unit Testing
 
